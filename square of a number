@@ -1,0 +1,13 @@
+// C Program To Find Square of a Number
+#include <stdio.h>
+int main(){
+    float num, square;
+    
+    // Asking for Input
+    printf("Please enter any integer value: ");
+    scanf("%f", &num);
+    
+    square = num * num;
+    printf("The Square of the given number %.2f is %.2f", num, square);
+    return 0;
+}
